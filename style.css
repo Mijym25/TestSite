@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+*,
+*::before,
+*::after 
+{
+    margin:0;
+    padding:0;
+    box-sizing: inherit;
+}
+
+html 
+{
+    font-size: 18px;
+    font-family: 'Nunito', sans serif;
+    overflow-x: hidden;
+}
+
+body
+{
+        background-color: #222222;
+        color: white;
+        height: 100%;
+        position: static;
+}
+
+nav
+{
+    padding: 10px 100px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 3px 15px rgba(0,0,0,.3);
+    opacity: 2;
+    background-color: #222222;
+    z-index: 1;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    width: 100%;    
+}
+
+.logo-image
+{
+    height: 80px;
+    margin-left: 0px;
+    margin-right: auto;
+
+}
+
+.nav-lien:link,
+.nav-lien:visited
+{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    display : inline-block;
+    width: 150px;
+    text-align: center;
+    transition: all .3s;
+    position: relative;
+}
+
+.nav-lien:hover
+{
+    background-color: white;
+    color : #222222;
+    opacity: 1;
+}
+
+.nav-lien:not(:last-child)
+{
+    border-right: 2px solid #FC833C;
+}
+
+.nav-barre
+{
+    display: flex;
+}
+
+.button
+{
+    display: block;
+    font-size: 20px;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    width: 150px;
+    position: static;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: 'Nunito', sans serif; 
+    border-right: 2px solid #FC833C;
+    transition: all .3s;  
+}
+
+.button:hover
+{
+    background-color: white;
+    color : #222222;
+    opacity: 1;
+}
+
+.dropdown-1 .content
+{
+    display: none;
+}
+
+.dropdown-1:hover .content
+{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    background-color: #313131;
+    width: 200px;
+    height: auto;
+    text-align: center;
+}
+
+.button-nav-bar
+{
+    color: white;
+    text-decoration: none;
+    font-family: 'Nunito', sans serif;
+    padding: 10px;
+    width: 180px;
+    border: none;
+}
+
+.button-nav-bar:hover
+{
+    color: #222222;
+    text-decoration: none;
+    font-family: 'Nunito', sans serif;
+    padding: 10px;
+    width: 180px;
+    background-color: white;
+    opacity: 0.8;
+}
+
+/* Doublages */
+
+.Doublages_Content
+{
+    text-align: center;
+    padding-bottom: 75px;
+}
+
+.D1
+{
+    display: inline-flex;
+    text-align: center;
+    margin-top: 50pt;
+    margin-bottom: 50pt;
+}
+
+.D2
+{ 
+    display: inline-flex;
+    text-align: center; 
+    align-items: center;
+}
+
+#D_hover
+{
+    background-color: #313131;
+    width: 300px;
+    height: 375px;
+    align-items: center;
+    margin-right: 25px;
+    margin-left: 25px;
+    border-right: 4px solid #FC833C;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: all 1s;
+}
+
+
+/* .Sylvia:hover#D_hover,
+.Emmanuel:hover#D_hover, 
+.Ramzy:hover#D_hover,
+.Eric:hover#D_hover,
+.Max:hover#D_hover */
+:hover#D_hover
+{
+    transform: scale(1.1,1.1);
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.767);
+    border-right: 7px solid #FC833C;
+    color: whitesmoke;
+    display: flex;
+    margin-left: 20pt;
+    padding-right: 200pt;
+    background-color: #474747 ;
+    text-align: left;
+    text-transform: uppercase;
+    transition: all 1.3s;    
+}
+
+
+/* Générique */
+
+.Ratz_Générique
+{
+    display: inline-block;
+    position: relative;
+    width: 500px;
+    padding: 50pt;
+    background-color: #313131;
+    border-bottom-left-radius: 20pt;
+    border-bottom-right-radius: 20pt;
+    border-bottom: 2pt solid #FC833C;
+    border-left: 2pt solid #FC833C;
+    border-right: 2pt solid #FC833C;
+}
+
+.Générique_Content
+{
+    text-align: center;
+}
+
+video::-webkit-media-controls-timeline {display:none;}
+
